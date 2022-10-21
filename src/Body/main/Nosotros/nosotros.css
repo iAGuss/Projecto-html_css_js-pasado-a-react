@@ -1,0 +1,108 @@
+#nosotros {
+    display: grid;
+    grid-template-rows: 1fr 0.8fr;
+}
+.fondoAzul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #5298FF;
+    color: white;
+    gap: 5px;
+}
+
+/* PARTE IZQUIERDA DE AZUL */
+.izqFondoAzul {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    margin-left: 80px;
+}
+.divDeOficina {
+    object-fit: contain;
+    width: 100%;
+    margin-top: 40px;
+}
+.oficina {
+    width: 100%;
+    height: 85%;
+    object-position: 0px 25px;
+    object-fit: cover;
+}
+.h2AzulIzq {
+    margin-left: 40px;
+}
+.parrafoAzulIzq {
+    width: 80%;
+    margin-left: 40px;
+}
+
+/* PARTE DERECHA DE AZUL */
+.derFondoAzul {
+    display: grid;
+    grid-template-rows: 0.8fr 1fr;
+}
+.h2AzulDer {
+    padding-top: 100px;
+    margin-left: 50px;
+}
+.parrafoAzulDer {
+    margin-left: 50px;
+    width: 65%;
+}
+.divDeVoluntariado {
+    display: flex;
+    width: 100%;
+    object-fit: contain;
+    justify-content: right;
+}
+.voluntariado {
+    width: 85%;
+    height: 66%;
+    margin-right: 80px;
+    object-position: 0px -30px;
+    object-fit: cover;
+}
+
+/* PARTE BLANCA DE SECCIÓN 'NOSOTROS' */
+.textoDeFondoBlanco {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 50px 250px 0px 250px;
+}
+.conteinerDeImagenes {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 30px 80px 0px 80px;
+    gap: 20px;
+    color: white;
+}
+.imgsDeContenedores {
+    padding-top: 25px;
+}
+.mas {
+    padding-top: 10px;
+}
+.rojo, .amarillo, .verde, .celeste{
+    display: grid;
+    grid-template-rows: 1.5fr 1fr;
+    border-radius: 20px;
+    padding: 0px 20px 0px 40px;
+    font-size: 23px;
+}
+.rojo {
+    background-color: #DC3545;
+}
+.amarillo {
+    background-color: #FF9C07;
+}
+.verde{
+    background-color: #28A745;
+}
+.celeste{
+    background-color: #17A2B8;
+}
+.contenedorDeColores {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}

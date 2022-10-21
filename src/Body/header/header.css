@@ -1,0 +1,16 @@
+header {
+    display: flex;
+    background-image: url(../../assets/manos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.divDelHeader {
+    width: 50%;
+}
+header>div>h2 {
+    font-size: 19px;
+}

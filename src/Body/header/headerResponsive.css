@@ -1,0 +1,15 @@
+@media screen and (max-width:390px) {
+	header{
+        width: 390px;
+        align-items: flex-start;
+    }
+    .divDelHeader {
+        width: 90%;
+    }
+    header>div>h1 {
+        font-size: 15px;
+    }
+    header>div>h2 {
+        font-size: 12px;
+    }
+}

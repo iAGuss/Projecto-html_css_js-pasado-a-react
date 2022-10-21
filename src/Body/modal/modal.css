@@ -1,0 +1,129 @@
+.modal {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(1.1);
+    transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
+}
+.modal-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 0;
+    width: 800px;
+    height: 474px;
+    border-radius: 0.5rem;
+}
+.modalIzq{
+    height: 477px;
+    background-image: url(../../assets/imagen-modal.JPG);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 5px;
+}
+.modalDer{
+    display: grid;
+    grid-template-rows: 0.1fr 0.3fr 0.5fr 0.5fr;
+    gap: 5px;
+    padding-bottom: 50px;
+}
+.lineaUno{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px 0px 10px;
+}
+.flechita{
+    display: grid;
+    grid-template-columns: 20px 1fr;
+    align-items: center;
+}
+.atrass, .close-button{
+    cursor: pointer;
+}
+.close-button {
+    float: right;
+    width: 1.5rem;
+    line-height: 1.5rem;
+    text-align: center;
+    border-radius: 0.25rem;
+}
+.close-button:hover {
+    background-color: darkgray;
+}
+.tituloModal{
+    text-align: center;
+}
+.bloqueMiEmpresa{
+    display: grid;
+    grid-template-columns: 90px 1fr;
+    border: solid;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border-color: rgb(255, 255, 255);
+    box-shadow: 0px 5px 8px -10px black;
+    padding-left: 10px;
+}
+.flechaDeBloques{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+}
+.azul{
+    display: flex;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: #1C78FD;
+    justify-content: center;
+    align-items: center;
+}
+.tituloMiEmpresa{
+    color: #1C78FD;
+    font-size: 28px;
+}
+.textoBloqueMiEmpresa{
+    padding: 0px 10px 0px 10px;
+}
+.bloqueMiOrganizacion{
+    display: grid;
+    grid-template-columns: 90px 1fr;
+    border: solid;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border-color: rgb(255, 255, 255);
+    box-shadow: 0px 5px 8px -10px black;
+    padding-left: 10px;
+}
+.violeta{
+    display: flex;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: #7749f8;
+    justify-content: center;
+    align-items: center;
+}
+.tituloMiOrganizacion{
+    color: #7749f8;
+    font-size: 28px;
+}
+.textoBloqueMiOrganizacion{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.show-modal {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1.0);
+    transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
+}

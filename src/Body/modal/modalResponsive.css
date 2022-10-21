@@ -1,0 +1,11 @@
+@media screen and (max-width:390px) {
+	.modal-content {
+        grid-template-columns: 1fr;
+        top: 35%;
+        width: 360px;
+        height: 500px;
+    }
+    .modalIzq{
+        display: none;
+    }
+}

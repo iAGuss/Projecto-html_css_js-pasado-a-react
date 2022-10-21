@@ -1,0 +1,51 @@
+#contacto {
+    display: flex;
+    object-fit: contain;
+    margin: 0px 80px 0px 80px; 
+    gap: 10px;
+}
+
+/* PARTE DE LA IMAGEN DE CONTACTO */
+.contactoImagen {
+    object-fit: cover;
+    object-position: 0 -30px;
+    height: 70%;
+    width: 50%;
+    margin-top: 40px;
+}
+
+/* PARTE DERECHA DE CONTACTO */
+.contactoForm {
+    display: flex;
+    flex-direction: column;
+}
+.contactoForm>h1 {
+    font-size: 40px;
+    text-align: center;
+}
+.conteinerContacto {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.izqContacto {
+    display: flex;
+    flex-direction: column;
+    height: 190px;
+    align-items: flex-start;
+}
+.izqContacto>span {
+    width: 100%;
+}
+.derContacto {
+    display: flex;
+    flex-direction: column;
+}
+input, textarea {
+    width: 90%;
+    border-radius: 7px;
+    border-width: 1px;
+}
+.spanDelBoton {
+    display: flex;
+    justify-content: center;
+}

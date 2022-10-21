@@ -1,0 +1,28 @@
+@media screen and (max-width:390px) {
+	nav{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        width: 390px;
+        margin: 0;
+        justify-items: center;
+    }
+    .logo {
+        padding-top: 3px;
+        height: 60px
+    }
+    nav>ul {
+        font-size: 16px;
+        gap: 40px;
+        margin-left: -40px;
+    }
+    nav>ul>li {
+        margin-left: 0px;
+    }
+    .divDelBoton {
+        padding-bottom: 6px;
+    }
+    
+    .boton {
+        width: 180px;
+    }
+}

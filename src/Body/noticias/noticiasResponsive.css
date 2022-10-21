@@ -1,0 +1,10 @@
+@media screen and (max-width:390px) {
+	.c{
+        flex-direction: column;
+        padding: 0;
+        align-items: center;
+    }
+    #noticias {
+        width: 390px;
+    }
+}

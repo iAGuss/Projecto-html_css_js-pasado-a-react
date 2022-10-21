@@ -1,0 +1,35 @@
+nav {
+    display: grid;
+    grid-template-columns: 235px 1fr 1fr;
+    margin: 20px 80px 20px 80px;
+}
+.logo {
+    height: 80%;
+}
+nav>ul {
+    display: flex;
+    list-style-type: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+nav>ul>li {
+    margin-left: 90px;
+}
+.divDelBoton {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.boton {
+    background-color: #5227CC;
+    color: white;
+    height: 28px;
+    width: 120px;
+    border-radius: 15px;
+    border-style: none;
+}
+
+.boton:hover{
+    background-color: #724cda;
+    cursor: pointer;
+}

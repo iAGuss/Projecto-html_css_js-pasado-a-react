@@ -1,0 +1,26 @@
+@media screen and (max-width:390px) {
+	footer{
+        width: 390px;
+    }
+    .cosasDelFooter{
+        display: flex;
+    }
+    .imgDelFooter {
+        width: 150px;
+        height: 45px;
+        padding: 0px 0px 0px 6px;
+    }
+    .cosasDelFooter>ul {
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 10px;
+        margin: 0px;
+        padding-left: 10px;
+        gap: 5px;
+        justify-content: center;
+    }
+    .seguinos {
+        padding: 0px 6px 0px 0px;
+        font-size: 20px;
+    }
+}
